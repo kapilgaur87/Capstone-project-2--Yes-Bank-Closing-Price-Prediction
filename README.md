@@ -1,10 +1,46 @@
-# Capstone-project-2--Yes-Bank-Closing-Price-Prediction
-This project was done in order to gain insight from the data of share prices of Yes bank and to predict the stock prices using different Machine Learning Models. The aim is to anticipate the share's closing price for the month given the stock market price data for Yes bank. This information includes the date, lowest, highest, and closing price information.
+# Capstone Project: Yes Bank Closing Price Prediction
 
-In order to extract the correct data from the dataset, it is first cleaned and the necessary alterations were made. 
+Welcome to the Capstone Project: Yes Bank Closing Price Prediction repository. This project focuses on predicting the closing prices of Yes Bank's stocks using data-driven techniques. By building predictive models, we aim to assist investors and traders in making informed decisions.
 
-The strategy is fitting a machine learning model to this historical data and attempting to forecast the closing price using the parameters discovered during training. By doing this, we can train our model to recognise trends in the data and then use that knowledge to make predictions. Various regression models, including: linear regression, lasso regression, Ridge regression and Xgboost regression have been used.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Data](#data)
+- [Methods](#methods)
+- [Results](#results)
+- [Contributing](#contributing)
 
-The findings are:
+## Introduction
+This project aims to predict the closing prices of Yes Bank's stocks using historical data and relevant market features. By leveraging machine learning algorithms, we can provide insights into potential price movements and support trading strategies.
 
-The trend of Yes Bank's stock's Close, Open, High, and Low prices has increased up until 2018 and then rapidly decreased. The closing price of shares directly correlates with high, low, and open prices. The data contained a lot of multicollinearity. We achieved 99.6% accuracy with the Linear regression model, and results with the linear regression, Ridge regression and lasso regression were essentially identical. Using the information on the share closing price of Yes Bank, Linear regression is the most effective model to use for the prediction of Yes Bank Stocks.
+## Features
+- Data preprocessing for stock price analysis.
+- Implementation of time series forecasting algorithms.
+- Visualization of predictions and trends.
+- Evaluation of model performance.
+
+## Getting Started
+1. Clone this repository: `git clone https://github.com/kapilgaur87/Capstone-project-2--Yes-Bank-Closing-Price-Prediction.git`
+2. Run the google colab notebook
+
+## Data
+The historical stock price data for Yes Bank is available in the repository with the name data_YesBank_StockPrices.csv
+- It includes daily closing prices, volume, and other relevant features.
+
+## Methods
+- Stock price prediction is performed using linear regression , Ridge regression, Lasso regression and XGboost regressor. 
+
+## Results
+- Visualizations of prediction results can be found in the notebook
+- Detailed insights are also discussed in colab notebook
+
+## Contributing
+Contributions are welcome! Follow these steps:
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/new-feature`
+3. Make your changes and commit: `git commit -am 'Add new feature'`
+4. Push to the branch: `git push origin feature/new-feature`
+5. Submit a pull request.
+
+Feel free to contact me at kapildevgaur87@gmail.com for any questions or feedback.
